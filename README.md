@@ -23,7 +23,7 @@ The process involves three main steps:
 copy the follwing script to automate the process or you can also follow the manual steps
 
 ```bash
-curl -SL https://raw.githubusercontent.com/rajeshmantri2711/RPI-os-backup/main/backup.sh | bash
+curl -SL https://raw.githubusercontent.com/rajeshmantri2711/RPI-os-backup/main/backup.sh -o /tmp/backup.sh && bash /tmp/backup.sh
 ```
 
 
